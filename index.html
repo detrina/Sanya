@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FEED</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>FEED SANYA</h1>
+        <p>NO MORE THAN 10 TIMES</p>
+        <div class="character-container">
+            <img id="character" src="character.png" alt="Персонаж" onclick="handleClick()">
+        </div>
+        <p>Click: <span id="clickCount">0</span>/10</p>
+
+        <!-- Звук жителя и взрыва -->
+        <audio id="villagerSound" src="villager.mp3" preload="auto"></audio>
+        <audio id="explosionSound" src="explosion.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

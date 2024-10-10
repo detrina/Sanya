@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    cursor: url('doner.png'),  /* Добавляем картинку дёнера в качестве курсора */
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.character-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#character {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#character:active {
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    color: #4CAF50;
+}
